@@ -1,4 +1,7 @@
-# coverDownloader [![CircleCI](https://circleci.com/gh/chfanghr/CoverDownloader.svg?style=svg)](https://circleci.com/gh/chfanghr/CoverDownloader)
+# coverDownloader 
+
+[![CircleCI](https://circleci.com/gh/chfanghr/CoverDownloader.svg?style=svg)](https://circleci.com/gh/chfanghr/CoverDownloader)
+
 **This ~~small~~ tool is used to download cover image of album or track using spotify's service.**
 
 ## Usage 
