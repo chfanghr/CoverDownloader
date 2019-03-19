@@ -1,0 +1,13 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/golang:1.12
+    steps:
+      - checkout
+      - run: go get -v -u github.com/chfanghr/coverDownloader/...
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - build
