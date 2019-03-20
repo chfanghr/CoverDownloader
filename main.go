@@ -80,7 +80,7 @@ func downloadCovers(covers map[Spotify.Image_Size]string) map[Spotify.Image_Size
 				return
 			}
 			if res.StatusCode != http.StatusOK {
-				close(ch)
+				//close(ch)
 				return
 			}
 			defer func() { _ = res.Body.Close() }() //keep myself away from annoying warning
